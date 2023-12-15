@@ -2,7 +2,7 @@ use rust_gpiozero::Servo;
 
 const SERVO_PIN: u8 = 14;
 
-mod motor {
+pub mod motor {
   pub fn open() {
     let servo = Servo::new(SERVO_PIN);
     servo.max();

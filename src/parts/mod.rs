@@ -1,2 +1,2 @@
-mod motor;
-mod sensor;
+pub mod motor;
+pub mod sensor;
