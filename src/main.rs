@@ -1,4 +1,4 @@
-use parts;
+mod parts;
 use std::{thread, time};
 
 fn main() {
