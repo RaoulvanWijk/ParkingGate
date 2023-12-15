@@ -1,5 +1,5 @@
-mod motor;
-mod sensor;
+use motor;
+use sensor;
 
 mod parts {
     pub use super::motor;
