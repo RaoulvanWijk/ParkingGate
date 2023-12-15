@@ -1,7 +1,8 @@
-use motor;
-use sensor;
+pub mod motor;
+pub mod sensor;
 
 mod parts {
-    pub use super::motor;
-    pub use super::sensor;
+    pub fn test() {
+        println!("test");
+    }
 }
